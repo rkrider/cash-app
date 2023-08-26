@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Agrandir-wide";   /*Can be any text*/
+  src: url("./fonts/Agrandir-GrandHeavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+  font-family: "Agrandir-bold";   /*Can be any text*/
+  src: url("./fonts/Agrandir-TextBold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+    font-family: 'Agrandir-wide', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
