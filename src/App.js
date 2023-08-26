@@ -1,13 +1,12 @@
-import './App.css';
 import MainLayer from "./Components/MainLayer/index";
 import Payments from './Components/Payments';
 
 function App() {
   return (
-    <div className="App">
+    <main>
        <MainLayer/>
        <Payments/>
-    </div>
+    </main>
   );
 }
 
