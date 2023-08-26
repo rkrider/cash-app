@@ -12,13 +12,18 @@ import "./style.css";
 const Payments = () => {
   return (
     <div className='payments'>
-        
-        <img className='backgroundLining' src={BackgroundLining} alt='backgroundLining'/>
-        <img className='paymentPhone' src={PaymentPhone} alt='paymentPhone'/>
-        <img className='paymentPillersmall' src={PaymentPillerSmall} alt='paymentPillersmall'/>
-        <img className='paymentPillerMedium' src={PaymentPillerMedium} alt='paymentPillerMedium'/>
-        <img className='paymentPillerLarge' src={PaymentPillerLarge} alt='paymentPillerLarge'/>
-        <img className='paymentColumn' src={PaymentColumn} alt='paymentColumn'/>
+        <div className='payments_main'>
+        <div className='payments_bg'>
+            <img className='backgroundLining' src={BackgroundLining} alt='backgroundLining'/>
+        </div>
+        <div className='payments_imgs'>
+            <img className='paymentPhone' src={PaymentPhone} alt='paymentPhone'/>
+            <img className='paymentPillersmall' src={PaymentPillerSmall} alt='paymentPillersmall'/>
+            <img className='paymentPillerMedium' src={PaymentPillerMedium} alt='paymentPillerMedium'/>
+            <img className='paymentPillerLarge' src={PaymentPillerLarge} alt='paymentPillerLarge'/>
+            <img className='paymentColumn' src={PaymentColumn} alt='paymentColumn'/>
+        </div>
+        </div>
 
     </div>
   )
