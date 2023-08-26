@@ -13,6 +13,13 @@ const Payments = () => {
   return (
     <div className='payments'>
         
+        <img className='backgroundLining' src={BackgroundLining} alt='backgroundLining'/>
+        <img className='paymentPhone' src={PaymentPhone} alt='paymentPhone'/>
+        <img className='paymentPillersmall' src={PaymentPillerSmall} alt='paymentPillersmall'/>
+        <img className='paymentPillerMedium' src={PaymentPillerMedium} alt='paymentPillerMedium'/>
+        <img className='paymentPillerLarge' src={PaymentPillerLarge} alt='paymentPillerLarge'/>
+        <img className='paymentColumn' src={PaymentColumn} alt='paymentColumn'/>
+
     </div>
   )
 }
