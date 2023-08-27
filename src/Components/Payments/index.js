@@ -12,8 +12,8 @@ const Payments = () => {
     <section className="payments">
       <div className="payment_upper">
         <div className="text">
-          <h1>Payments</h1>
-          <p>
+          <h1 className="font-agrandir">Payments</h1>
+          <p className="font-mulish">
             Send and receive money with anyone, donate to an important cause, or
             tip professionals. Just enter a $cashtag, phone number, or scan
             their QR code to pay.
